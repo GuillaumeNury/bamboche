@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>✨ BAMBOCHE MAGIQUE ✨</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  C'est l'heure de la bamboche !
+  <div class="stars" id="stars"></div>
+  
+  <div class="container state-default ">
+    <h1 class="main-title">
+      <span class="magic-wand">🪄</span>
+      BAMBOCHE MAGIQUE
+      <span class="magic-wand">✨</span>
+    </h1>
+    
+    <p class="subtitle">La fête commence maintenant !</p>
+    
+    <div class="party-section y2k-border">
+      <div class="disco-ball"></div>
+      
+      <p class="party-text">
+        Bienvenue dans l'univers magique de la bamboche ! 
+        Préparez-vous à vivre une expérience extraordinaire 
+        où la magie rencontre la fête dans une explosion de couleurs 
+        et d'effets visuels dignes de l'an 2000 !
+      </p>
+      
+      <div class="magic-effects">
+        <div class="effect-item">🎭</div>
+        <div class="effect-item">🎪</div>
+        <div class="effect-item">🎨</div>
+        <div class="effect-item">🌟</div>
+        <div class="effect-item">🎉</div>
+      </div>
+      
+      <button class="party-button mod-stay" onclick="okIStay()">Finalement je reste</button>
+      <button class="party-button mod-party" onclick="letsParty()">Je veux venir</button>
+      <button class="party-button mod-leave" onclick="letMeLeave()">Je veux partir</button>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
 </body>
 </html>
